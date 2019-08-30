@@ -1,0 +1,18 @@
+1. Entities : Employee
+   Atribut : ID number, Tanggal masuk, waktu kerja, ID divisi, status pegawai
+2. Entitis : Divisi
+   Atribut : Finance and treasury, AR, sales and marketing, operation, general admin
+
+DDL 
+CREATE TABLE Employee(Tanggal_masuk DATENULL, ID INTEGER(10) PRIMARY KEY, waktu_kerja INTEGER(2), ID_divisi INTEGER(30), Status_pegawai VARCHAR(15));
+CREATE TABLE Divisi(Finance_and_Treasury VARCHAR(20), AR VARCHAR(20), Sales_and_Marketing VARCHAR(20), Operation VARCHAR(20), General_Admin VARCHAR(20)
+
+DML
+Mengisi tabel divisi
+insert into Employee(tanggal_masuk,ID,Waktu_kerja,ID_Divisi, Status_pegawai) values ('2019-08-30','1234567890','8','01','direktur')
+Select ID*from Employee
+
+Mengisi tabel divisi
+insert into Divisi(Finance_and_treasury, AR, sales_and_marketing, operation, general_admin)
+values (?)
+select * from divisi;
